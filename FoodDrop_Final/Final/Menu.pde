@@ -120,7 +120,7 @@ void mostraCreditos() {
   textSize(20);
   fill(c1);
   text("github.com/cacaffurtado", width/2, 2.7*height/8);
-  text("github.com/", width/2, 4.7*height/8);
+  text("github.com/mclaraolvrx", width/2, 4.7*height/8);
 
   textSize(20);
   fill(200, 50, 50);
