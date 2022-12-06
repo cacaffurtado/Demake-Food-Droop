@@ -111,7 +111,6 @@ void draw() {
 
   if (GAMEOVER == true) {
     gameOver();
-    song.stop();
   }
 }
 
@@ -136,6 +135,7 @@ void mouseReleased() {
       if (m4 == true) {
         REGRAS = false;
         MENU = true;
+        song.stop();
         setup();
       } //regras pra menu
       if (m5 == true) {
@@ -148,6 +148,7 @@ void mouseReleased() {
       if (m4 == true) {
         CREDITOS = false;
         MENU = true;
+        song.stop();
         setup();
       } //creditos pra menu
       if (m5 == true) {
@@ -159,6 +160,7 @@ void mouseReleased() {
     if (GAMEOVER == true) {
       GAMEOVER = false;
       MENU = true;
+      song.stop();
       setup();
     } //gameover pra menu
   }
